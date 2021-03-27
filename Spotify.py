@@ -98,7 +98,7 @@ class SpotifyAPI(object):
         }
         
         return headers
-    
+    # comment
     def get_resource(self, lookup_id, resource_type="albums", version='v1'):
         endpoint = f"https://api.spotify.com/{version}/{resource_type}/{lookup_id}"
         headers = self.get_resource_header()
